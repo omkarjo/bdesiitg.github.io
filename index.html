@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Batch of 2021 | IIT Guwahati</title>
+</head>
+<body class="bg-gray-100" onload="allFill()">
+    <div><!-- content wrapper -->
+        <div>
+            <nav>
+                <h1 class="font-body font-bold uppercase p-6 absolute top-0">
+                    <img class="h-10 w-full" src="img/Logo.png" alt="Logotype">
+                </h1>
+                <div class="flex justify-end lg:p-0 py-5">
+                    <div class="px-4 cursor-pointer lg:hidden" id="burger">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </div>
+                </div>
+                <ul class="font-body text-lg font-bold text-blue-900 lg:justify-end lg:items-center lg:flex hidden text-center" id="menu">
+                    <li class="lg:mr-10 my-3">
+                        <a href="#About_Us">About us</a>
+                    </li>
+                    <li class="lg:mr-10 my-3">
+                        <a href="#Students">Students</a>
+                    </li>
+                    <li class="lg:mr-10 my-3">
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li class="lg:mr-10 my-6">
+                        <a class="btn-primary" href="#">Download Brochure</a>
+                    </li>
+                </ul>
+            </nav>
+        </div><!-- End Nav -->
+
+        <main class="bg-gray-100 font-body">
+            <header class="lg:flex items-center justify-between my-16">
+                    <img class="lg:max-w-3xl max-w-2xl pr-0" src="img/Illustration.svg" alt="Illustration">
+                    <div class="font-sans font-bold md:ml-32 ml-10 lg:order-first">
+                        <h1 class="text-blue-900 lg:text-6xl md:text-5xl text-2xl leading-none mt-16">Design is thinking<br>made visual.</h1>
+                        <h3 class="text-blue-900 lg:text-4xl md:text-3xl text-base">-Saul Bass</h3>
+                    </div>
+            </header>
+
+            <div>
+                <h2 class="font-bold text-blue-900 lg:text-4xl text-2xl flex justify-center mb-6" id="About_Us">Batch of 2021</h2>
+                <div class="flex justify-center">
+                    <div class="btn-primary mb-10">
+                        <a class="pr-2" href="https://www.youtube.com/watch?v=ZPQBAN-0s74">Our Motto</a>
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="flex justify-center lg:mb-56 mb-24 mx-10">
+                    <img class="shadow-lg" src="img/Class.png" alt="Class Photo"></img>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="font-bold text-blue-900 lg:text-4xl text-2xl flex justify-center mb-6" id="Students">Students</h2>
+                <ul class="font-bold text-gray-500 flex md:justify-center justify-between lg:text-2xl text-sm items-baseline lg:px-36 px-10 lg:mb-16 mb-4">
+                    <li class="cursor-pointer md:mx-10 mx-2 hover:text-blue-900">
+                        <a id="all">All</a>
+                    </li>
+                    <li class="cursor-pointer md:mx-10 mx-2 hover:text-blue-900 ">
+                        <a id="ux">UX</a>
+                    </li>
+                    <li class="cursor-pointer md:mx-10 mx-2 hover:text-blue-900">
+                        <a id="visual">Visual</a>
+                    </li>
+                    <li class="cursor-pointer md:mx-10 mx-2 hover:text-blue-900">
+                        <a id="industrial">Industrial</a>
+                    </li>
+                    <!--<li class="cursor-pointer md:mx-10 mx-2">
+                        <a id="transportation">Transportation</a>
+                    </li>-->
+                </ul>
+            </div>
+
+            <div class="px-6 lg:px-32 pt-10 pb-24 grid lg:grid-cols-3 md:grid-cols-2 gap-10"> 
+
+
+                <!-- Student List (Cards go here) -->
+                
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/adil.jpg" alt="Adil Abdushukoor">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Adil Abdushukoor</span>
+                            <!-- <span class="badge-ux">UX</span> -->
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <span class="badge-industrial">Industrial</span>
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/aditya.jpg" alt="Aditya Biala">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Aditya Biala</span>
+                            <span class="badge-ux">UX</span>
+                            <span class="badge-visual">Visual</span>
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/akhil.jpg" alt="Akhil Rajendran">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Akhil Rajendran</span>
+                            <!-- <span class="badge-ux">UX</span> -->
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <span class="badge-industrial">Industrial</span>
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/ankita.JPG" alt="Ankita Patra">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Ankita Patra</span>
+                            <span class="badge-ux">UX</span>
+                            <span class="badge-visual">Visual</span>
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Ankita loves learning new things which gets reflected in her interest in various fields of design. She has worked in the domain of Visual Communication and UX.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href="https://www.linkedin.com/in/artphiltre/" target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/anmol.jpg" alt="Anmol Ratan">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Anmol Ratan</span>
+                            <!-- <span class="badge-ux">UX</span> -->
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <span class="badge-industrial">Industrial</span>
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/dhiti.jpg" alt="Dhiti Singh">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Dhiti Singh</span>
+                            <!-- <span class="badge-ux">UX</span> -->
+                            <span class="badge-visual">Visual</span>
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/jacob.jpg" alt="Jacob Stephen">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Jacob Stephen</span>
+                            <!-- <span class="badge-ux">UX</span> -->
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <span class="badge-industrial">Industrial</span>
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/kartik.jpg" alt="Kartik Gupta">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Kartik Gupta</span>
+                            <span class="badge-ux">UX</span>
+                            <span class="badge-visual">Visual</span>
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href="https://www.linkedin.com/in/thisiscarrick/" target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/lakshya.jpg" alt="Lakshya Nimesh">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Lakshya Nimesh</span>
+                            <span class="badge-ux">UX</span>
+                            <span class="badge-visual">Visual</span>
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/lipika.jpg" alt="Lipika Gupta">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Lpika Gupta</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <span class="badge-industrial">Industrial</span>
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/manasi.jpg" alt="Manasi Sheth">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Manasi Sheth</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <span class="badge-industrial">Industrial</span>
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/medha.jpg" alt="Medha Agrawal">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Medha Agrawal</span>
+                            <!-- <span class="badge-ux">UX</span> -->
+                            <span class="badge-visual">Visual</span>
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href="https://www.linkedin.com/in/medha-agrawal-08" target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/megha.JPG" alt="Megha Agrawal">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Megha Agrawal</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/shibili.jpg" alt="Mohammed Shibili">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Mohammed Shibili</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/muskan.jpg" alt="Muskan Gupta">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Muskan Gupta</span>
+                            <span class="badge-ux">UX</span>
+                            <span class="badge-visual">Visual</span>
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/naveen.jpg" alt="NAveen Godara">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Naveen Godara</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/poornima.jpg" alt="Poornima Subramaniam">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Poornima Subramaniam</span>
+                            <!-- <span class="badge-ux">UX</span> -->
+                            <span class="badge-visual">Visual</span>
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href="https://www.linkedin.com/in/poornima-subramaniam-8049ba152/"  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/prasath.jpg" alt="Prasath Shanmugom">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Prasath Shanmugom</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/prerana.JPG" alt="Prerana Biswas">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Prerana Biswas</span>
+                            <!-- <span class="badge-ux">UX</span> -->
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <span class="badge-industrial">Industrial</span>
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/priyal.jpg" alt="Priyal Shrivastava">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Priyal Shrivastava</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/priyanshu.jpg" alt="Priyanshu Jain">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Priyanshu Jain</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/pravar.jpg" alt="Rajanala Pravar Prasad">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Pravar Prasad</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Pravar loves designing meaningful experiences which are elegant and intuitive with an inclination towards being Abstract, Minimalist, and Experimental.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href="https://www.linkedin.com/in/pravarprasad/" target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/rishabh.jpg" alt="Rishabh Singh">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Rishabh Singh</span>
+                            <!-- <span class="badge-ux">UX</span> -->
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <span class="badge-industrial">Industrial</span>
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/sood.JPG" alt="Rishabh Sood">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Rishabh Sood</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/rushikesh.jpg" alt="Rushikesh Taralekar">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Rushikesh Taralekar</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href="https://www.linkedin.com/in/rushikesh-taralekar-512b8b157/" target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/sachin.jpg" alt="Sachin Raja">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Sachin Raja</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/sanchit.jpg" alt="Sanchit Khess">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Sanchit Khess</span>
+                            <span class="badge-ux">UX</span>
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href="https://www.linkedin.com/in/sanchit-khess-603268176"  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/sarth.jpg" alt="Sarth Borade">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Sarth Borade</span>
+                            <span class="badge-ux">UX</span>
+                            <span class="badge-visual">Visual</span>
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/shrawani.jpg" alt="Shrawani Malkar">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Shrawani Malkar</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/srishti.jpg" alt="Shristi Chumber">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Shristi Chumber</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/atso.jpg" alt="Tekhengutso Therieh">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Tekhengutso Theriah</span>
+                            <!-- <span class="badge-ux">UX</span> -->
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <span class="badge-industrial">Industrial</span>
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/thirumaran.jpg" alt="Thirumaran">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Thirumaran</span>
+                            <!-- <span class="badge-ux">UX</span> -->
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <span class="badge-industrial">Industrial</span>
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/vaibhav.jpg" alt="Vaibhav Singh">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Vaibhav Singh</span>
+                            <!-- <span class="badge-ux">UX</span> -->
+                            <span class="badge-visual">Visual</span>
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/varun.JPG" alt="Varun Singh">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Varun Singh</span>
+                            <span class="badge-ux">UX</span>
+                            <span class="badge-visual">Visual</span>
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href=""  target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="h-64 w-full object-cover object-top" src="img/rithvik.jpg" alt="Rithvik Varma">
+                    <div class="mx-6 my-4">
+                        <div class="flex justify-start items-center mb-2">
+                            <span class="font-bold text-blue-900 text-xl mr-4">Rithvik Varma</span>
+                            <span class="badge-ux">UX</span>
+                            <!-- <span class="badge-visual">Visual</span> -->
+                            <!-- <span class="badge-industrial">Industrial</span> -->
+                        </div>
+                        <p class="font-medium text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                            Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                    </div>
+                    <div class="flex items-center justify-between mx-6 mb-4">
+                       <ul class="inline-flex items-center">
+                           <a class="btn-primary mr-4" href="#" >Portfolio</a>
+                           <a class="btn-secondary" href="#">Resume</a>
+                       </ul>
+                       <span>
+                            <a href="https://www.linkedin.com/in/rithvikvarma/" target="_blank">
+                                <svg class="h-8 w-8 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="linkedin">
+                                <path d="M20 22h-1.67a2 2 0 01-2-2v-5.37a.92.92 0 00-.69-.93.84.84 0 00-.67.19.85.85 0 00-.3.65V20a2 2 0 01-2 2H11a2 2 0 01-2-2v-5.46a6.5 6.5 0 1113 0V20a2 2 0 01-2 2zm-4.5-10.31a3.73 3.73 0 01.47 0 2.91 2.91 0 012.36 2.9V20H20v-5.46a4.5 4.5 0 10-9 0V20h1.67v-5.46a2.85 2.85 0 012.83-2.85zM6 22H4a2 2 0 01-2-2V10a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2zM4 10v10h2V10zM5 7a3 3 0 113-3 3 3 0 01-3 3zm0-4a1 1 0 101 1 1 1 0 00-1-1z"/></g></g>
+                                </svg>
+                            </a>
+                       </span>
+                    </div>
+                </div>  
+
+
+            </div>
+        </main>
+
+        <footer id="contact">
+            <span class="md:text-4xl text-2xl font-bold text-blue-900 my-24 lg:ml-40 ml-10">Point of Contact</span>
+            <div class="lg:pl-40 px-10 pt-10 pb-10 flex md:justify-start md:flex-row flex-col">
+                <div class="text-blue-900 font-bold md:pr-24 pr-0 pb-16">
+                    <span class="text-xl py-1" >Dr. Abhishek Shrivastava</span><br>
+                    <span class="text-sm py-1">Faculty Placement Coordinator</span><br>
+                    <span class="text-sm py-1">Department Of Design</span><br>
+                    <span class="text-sm py-1">+91 8011693660</span><br>
+                    <span class="text-sm py-1">shri@iitg.ac.in</span><br>
+                </div>
+
+                <div class="text-blue-900 font-bold">
+                    <span class="text-xl" >Sanchit Khess</span><br>
+                    <span class="text-sm">Student Placement Coordinator</span><br>
+                    <span class="text-sm">Department Of Design</span><br>
+                    <span class="text-sm">+91 9934767040</span><br>
+                    <span class="text-sm">sanch170205033@iitg.ac.in</span><br>
+                </div>
+            </div>
+
+            <div class="flex justify-center py-6 font-mono text-xs">
+                <span class="pb-2">Designed and Developed with 💙 by <a href="https://www.linkedin.com/in/omkarjoshi99">&nbspOmkar Joshi, ©️2020</a></span>
+                <!-- <span>Illustration by Manasi Sheth, Logotype by Shristi Chumber, Photo Editing by Priyal Shrivastava</span> -->
+            </div>
+        </footer>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
