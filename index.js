@@ -93,6 +93,9 @@ all.addEventListener('click', () => {
     if (industrial.classList.contains('text-blue-900')) {
         industrial.classList.remove('text-blue-900');
     }
+    if (research.classList.contains('text-blue-900')) {
+        research.classList.remove('text-blue-900');
+    }
 })
 
 ux.addEventListener('click', () => {
@@ -107,6 +110,9 @@ ux.addEventListener('click', () => {
     }
     if (industrial.classList.contains('text-blue-900')) {
         industrial.classList.remove('text-blue-900');
+    }
+    if (research.classList.contains('text-blue-900')) {
+        research.classList.remove('text-blue-900');
     }
 })
 
@@ -123,6 +129,9 @@ visual.addEventListener('click', () => {
     if (industrial.classList.contains('text-blue-900')) {
         industrial.classList.remove('text-blue-900');
     }
+    if (research.classList.contains('text-blue-900')) {
+        research.classList.remove('text-blue-900');
+    }
 })
 
 industrial.addEventListener('click', () => {
@@ -137,5 +146,26 @@ industrial.addEventListener('click', () => {
     }
     if (ux.classList.contains('text-blue-900')) {
         ux.classList.remove('text-blue-900');
+    }
+    if (research.classList.contains('text-blue-900')) {
+        research.classList.remove('text-blue-900');
+    }
+})
+
+research.addEventListener('click', () => {
+    if (!(research.classList.contains('text-blue-900'))){
+        research.classList.add('text-blue-900');
+    }
+    if (all.classList.contains('text-blue-900')) {
+        all.classList.remove('text-blue-900');
+    }
+    if (visual.classList.contains('text-blue-900')) {
+        visual.classList.remove('text-blue-900');
+    }
+    if (ux.classList.contains('text-blue-900')) {
+        ux.classList.remove('text-blue-900');
+    }
+    if (industrial.classList.contains('text-blue-900')) {
+        industrial.classList.remove('text-blue-900');
     }
 })
