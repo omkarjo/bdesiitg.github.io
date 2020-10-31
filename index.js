@@ -54,6 +54,20 @@ industrial.addEventListener('click', () => {
     
 })
 
+research.addEventListener('click', () => {
+    for(var i = 0; i < arrayOfCards.length; i++){
+        var loc = arrayOfCards[i];
+        var y = loc.querySelector('.badge-research');
+        if (!y){
+            loc.classList.add('hidden');
+        }
+        else if(y && loc.classList.contains('hidden')){
+            loc.classList.remove('hidden');
+        }
+    }
+    
+})
+
 all.addEventListener('click', () => {
     for(var i = 0; i < arrayOfCards.length; i++){
         arrayOfCards[i].classList.remove('hidden');
